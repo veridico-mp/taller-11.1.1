@@ -1,3 +1,4 @@
+//Hecho por: Martín Pereira.
 const fullList = `https://pokeapi.co/api/v2/pokemon?limit=151&offset=0`;//Rojo Fuego, Azul Marino, Verde Hoja.
 document.addEventListener('DOMContentLoaded', ()=>{
     fetch(fullList)
@@ -62,3 +63,4 @@ function removeP(id){
     item.remove();
     counterT-=1;
 }
+//Hecho por: Martín Pereira.
