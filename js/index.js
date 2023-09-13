@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         console.log(error);
     })
     
-    document.getElementById('body').style.backgroundImage= 'url(/img/fondo01.webp)';//intento 4.
+    document.getElementById('body').style.backgroundImage= 'url(img/fondo01.webp)';//intento 4.
 })
 function searchPo(url){
     fetch(url)
