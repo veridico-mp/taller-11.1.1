@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', ()=>{
         document.body.appendChild(errorMessage);
         console.log(error);
     })
+    
+    document.getElementById('body').style.backgroundImage= 'url(/img/fondo01.webp)';//intento 4.
 })
 function searchPo(url){
     fetch(url)
