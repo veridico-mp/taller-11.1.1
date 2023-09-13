@@ -1,7 +1,7 @@
 body{
     width: 1000px;
     height: 1000px;
-    /*background-image: url('/img/fondo01.webp');*/
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-borroso-oscuro-abstracto-color-textura-degradado-suave-patron-sitio-web-brillante-encabezado-banner-o-imagen-arte-grafico-barra-lateral_1258-85459.jpg?w=1380&t=st=1694586811~exp=1694587411~hmac=7cfa8450e15d6df055c468c849533f5d6f733c10e00c3eb5896f07f296488466');
     background-repeat: no-repeat;
     background-size: cover;
 }
