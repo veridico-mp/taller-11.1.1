@@ -1,7 +1,7 @@
 body{
     width: 1000px;
     height: 1000px;
-    background-image: url('https://img.freepik.com/vector-premium/bosque-verde-fondo-montana-noche_105940-404.jpg?w=1380');
+    background-image: url('/img/fondo01.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
