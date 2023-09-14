@@ -1,7 +1,4 @@
 body{
-    width: 1000px;
-    height: 1000px;
-    /*background-image: url('https://img.freepik.com/foto-gratis/fondo-borroso-oscuro-abstracto-color-textura-degradado-suave-patron-sitio-web-brillante-encabezado-banner-o-imagen-arte-grafico-barra-lateral_1258-85459.jpg?w=1380&t=st=1694586811~exp=1694587411~hmac=7cfa8450e15d6df055c468c849533f5d6f733c10e00c3eb5896f07f296488466');*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -103,4 +100,45 @@ table{
     border-left-color: rgb(207, 7, 7);
     color: white;
     font-weight: bold;
+}
+#register{
+    width: 200px;
+    height: 250px;
+    background-color: rgba(255, 228, 196, 0.547);
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+    position: absolute;
+    left: 1075px;
+    top: 80px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.enter{
+    width: 130px;
+}
+#submit{
+    width: 75px;
+    height: 25px;
+    border: 0px;
+    background-color: rgb(23, 123, 170);
+    position: absolute;
+    left: 63px;
+    bottom: 2px;
+    font-weight: 600;
+    color: white;
+}
+#resD{
+    width: 250px;
+    height: 200px;
+    background-color: rgba(255, 228, 196, 0.547);
+    border-color: black;
+    border-style: groove;
+    border-width: 2px;
+    position: absolute;
+    left: 1050px;
+    top: 340px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
 }

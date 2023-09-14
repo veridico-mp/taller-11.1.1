@@ -15,13 +15,24 @@
     <!--Visor de pokémons-->
     <div id="show"></div>
     <!--Botón agregar al equipo-->
-    <button id="add">Agregar al equipo</button>
+    <button type="button" id="add">Agregar al equipo</button>
     <!--Bloque de información-->
     <div id="infoS"><table id="infoT"></table></div>
     <!--Bloque de equipo armado-->
-    <div id="teamS">
-
+    <div id="teamS"></div>
+    <!--Envio de datos de usuario al servidor ficticio-->
+    <div id="register">
+        <h3>Complete todos los campos</h3>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" class="enter"><br>
+        <label for="lastname">Apellido:</label><br>
+        <input type="text" id="lastname" class="enter"><br>
+        <label for="date">Fecha de nacimiento:</label><br>
+        <input type="date" id="date"><br>
+        <button type="button" id="submit">ENVIAR</button>
     </div>
+    <!--Muestro respuesta de envio de datos de usuario-->
+    <div id="responseS"></div>
     <script src="js/index.js"></script>
 <!--Hecho por: Martín Pereira-->
 </body>
